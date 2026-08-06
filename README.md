@@ -45,8 +45,3 @@ It is possible to include this repository within a custom WordPress theme using 
 
 2. Install package with composer: `composer require relic-se/social-icon-block-variations:dev-main`
 3. Load all composer packages within `functions.php`: `require_once 'vendor/autoload.php';`
-
-## Known issues
-
-* Icons do not render properly within the block editor content and will display the default link icon.
-* Default titles are not currently supported. The icon variations included in this plugin will have a default title of "Social Icon".
